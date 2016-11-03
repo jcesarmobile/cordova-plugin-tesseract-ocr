@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-tesseract-ocr" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+  <name>Tesseract</name>
+  <description>
+		This plugin allows to recognise text from images
+	</description>
+  <license>MIT</license>
+  <js-module src="www/Tesseract.js" name="Tesseract">
+    <clobbers target="Tesseract"/>
+  </js-module>
+  <engines>
+    <engine name="cordova" version=">=6.4.0"/>
+    <engine name="cordova-ios" version=">=4.3.0"/>
+  </engines>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Tesseract">
+        <param name="ios-package" value="Tesseract"/>
+      </feature>
+    </config-file>
+    <source-file src="src/ios/Tesseract.m"/>
+    <header-file src="src/ios/Tesseract.h"/>
+    <framework src="TesseractOCRiOS" type="podspec" spec="~> 4.0.0"/>
+  </platform>
+</plugin>
