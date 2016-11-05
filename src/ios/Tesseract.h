@@ -6,6 +6,7 @@
 //
 
 #import <Cordova/CDVPlugin.h>
+#import <TesseractOCR/TesseractOCR.h>
 
 @interface Tesseract : CDVPlugin
 
