@@ -21,7 +21,5 @@
     <source-file src="src/ios/Tesseract.m"/>
     <header-file src="src/ios/Tesseract.h"/>
     <framework src="TesseractOCRiOS" type="podspec" spec="~> 4.0.0"/>
-    <source-file src="tessdata" target-dir="tessdata" />
-    <resource-file src="src/tessdata/eng.traineddata" target="tessdata/eng.traineddata" />
   </platform>
 </plugin>
