@@ -10,11 +10,11 @@ Usage
 ```
 Tesseract.recognise(imagePath,successCallback,errorCallback);
 
-function nativePluginResultHandler (result) {
+function successCallback (result) {
     console.log(result);
 }
         
-function nativePluginErrorHandler (error) {
+function errorCallback (error) {
     console.log(error);
 }
 ```
