@@ -4,6 +4,11 @@ OCR plugin for Apache Cordova using tesseract
 
 This plugin uses [Tesseract-OCR-iOS](https://github.com/gali8/Tesseract-OCR-iOS)
 
+Installation
+============
+
+	cordova plugin add cordova-plugin-tesseract-ocr
+
 Usage
 =====
 

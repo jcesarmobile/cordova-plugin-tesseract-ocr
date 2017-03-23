@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="cordova-plugin-tesseract-ocr" version="0.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-tesseract-ocr" version="0.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0">
   <name>Tesseract</name>
   <description>
 		This plugin allows to recognise text from images

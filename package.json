@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-tesseract-ocr",
+  "version": "0.0.3",
+  "description": "\n\t\tThis plugin allows to recognise text from images\n\t",
+  "cordova": {
+    "id": "cordova-plugin-tesseract-ocr",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcesarmobile/cordova-plugin-tesseract-ocr.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.4.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=4.3.0"
+    }
+  ],
+  "author": "jcesarmobile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcesarmobile/cordova-plugin-tesseract-ocr/issues"
+  },
+  "homepage": "https://github.com/jcesarmobile/cordova-plugin-tesseract-ocr#readme"
+}
